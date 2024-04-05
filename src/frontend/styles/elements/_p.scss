@@ -1,0 +1,5 @@
+@use "../settings/variables";
+
+p {
+  font-size: variables.$fs-p;
+}

@@ -1,0 +1,9 @@
+@use "@/frontend/styles/settings/variables";
+
+.root {
+  height: 100vh;
+  display: flex;
+  padding: variables.$spacing-l;
+  position: sticky;
+}
+

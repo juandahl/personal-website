@@ -2,9 +2,12 @@
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 300;
   line-height: 1.13;
+  color: variables.$primary-color;
+  padding: 1rem 0px;
 }
 
 h1 {

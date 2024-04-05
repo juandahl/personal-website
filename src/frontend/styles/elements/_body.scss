@@ -5,4 +5,31 @@ body {
   font-family: variables.$font-family;
   font-size: variables.$fs-body;
   line-height: 1.8;
+  background-color: variables.$background-dark-color;
+}
+
+.code-container {
+  background-color: variables.$code-bg-dark;
+  color: variables.$code-color-dark;
+  border-radius: variables.$rounded-3;
+  padding: variables.$spacing-xs 0;
+  margin: variables.$spacing-xs 0rem;
+}
+
+ol, ul {
+  list-style-type: disc;
+  margin: variables.$spacing-xs 0;
+  margin-left: variables.$spacing;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: variables.$spacing-xs;
 }
