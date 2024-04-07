@@ -7,6 +7,9 @@ const nextConfig = {
 	sassOptions: {
 		includePaths: [path.join(__dirname, "styles")],
 	},
+	images: {
+		remotePatterns: [{ protocol: "https", hostname: "pbs.twimg.com" }],
+	},
 };
 
 module.exports = withMDX(nextConfig);

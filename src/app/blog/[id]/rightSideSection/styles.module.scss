@@ -1,9 +1,9 @@
 @use "@/frontend/styles/settings/variables";
 
 .root {
-  height: 100vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   padding: variables.$spacing-l;
   position: sticky;
 }

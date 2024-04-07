@@ -1,0 +1,43 @@
+@use "@/frontend/styles/settings/variables";
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: calc(100vh - variables.$header-height);
+  overflow-y: scroll;
+  padding-bottom: variables.$spacing-l;
+
+  &::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+  }
+}
+
+//TODO: move to palette
+.like-btn {
+  background-color: red;
+}
+
+.header {
+  display: flex;
+  position: sticky;
+  padding-top: variables.$spacing-m;
+  gap: variables.$spacing-s;
+}
+
+.header--title {
+  color: variables.$text-color;
+  font-weight: bold;
+  padding: 0;
+}

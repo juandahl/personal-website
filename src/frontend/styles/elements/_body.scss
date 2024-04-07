@@ -19,7 +19,7 @@ body {
 ol, ul {
   list-style-type: disc;
   margin: variables.$spacing-xs 0;
-  margin-left: variables.$spacing;
+  margin-left: variables.$spacing-m;
 }
 
 ol {
