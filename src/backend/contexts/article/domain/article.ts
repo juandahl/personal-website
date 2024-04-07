@@ -13,17 +13,11 @@ export class Article {
 	) {}
 
 	static create(title: string, url: string): Article {
-		return new Article(
-			new Title(title),
-			new Url(url),
-		);
+		return new Article(new Title(title), new Url(url));
 	}
 
 	static fromPrimitives(primitives: ArticlePrimitives): Article {
-		return new Article(
-			new Title(primitives.title),
-			new Url(primitives.url),
-		);
+		return new Article(new Title(primitives.title), new Url(primitives.url));
 	}
 
 	toPrimitives(): ArticlePrimitives {

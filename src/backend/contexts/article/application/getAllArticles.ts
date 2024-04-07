@@ -5,6 +5,6 @@ export class GetAllArticles {
 	constructor(private readonly repository: ArticleRepository) {}
 
 	async getAll(): Promise<Article[]> {
-    return this.repository.findAll();
+		return this.repository.findAll();
 	}
 }
