@@ -8,17 +8,3 @@
   position: sticky;
   justify-content: center;
 }
-
-.like-btn {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  height: 1.5rem;
-  gap: variables.$spacing-xs;
-}
-
-//TODO: remove hardcoded colors
-.like-icon--clicked {
-  fill: red;
-  stroke: red;
-}

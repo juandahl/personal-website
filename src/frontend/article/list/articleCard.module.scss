@@ -1,0 +1,31 @@
+@use "@/frontend/styles/settings/variables";
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: variables.$spacing-s;
+  text-decoration: none;
+  max-width: 100%;
+  color: white;
+  padding: 2em;
+
+  &--image {
+    width: 75px;
+    height: 75px;
+    border-radius: variables.$rounded-3;
+  }
+
+  &--title {
+    padding-top: 0;
+    text-decoration: none;
+  }
+  &--description {
+    color: variables.$text-color;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 12.5rem;
+    max-width: 100%;
+  }
+}
+

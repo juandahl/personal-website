@@ -1,6 +1,7 @@
 import React from "react";
 
-import LikeButton from "./likeButton";
+import LikeButton from "@/frontend/article/shared/likeButton/likeButton";
+
 import ShareButton from "./shareButton";
 import styles from "./styles.module.scss";
 

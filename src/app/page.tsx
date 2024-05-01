@@ -1,3 +1,9 @@
+import ArticleList from "@/frontend/article/list/articleList";
+
 export default function Home() {
-	return <div>hello world</div>;
+	return (
+		<div>
+			<ArticleList />
+		</div>
+	);
 }
