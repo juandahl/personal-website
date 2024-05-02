@@ -1,0 +1,51 @@
+@use "@/frontend/styles/settings/variables";
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  padding: 0px 2.5rem;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.background {
+  background-image: url('/assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 31.25rem;
+  width: 100%;
+
+  &--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }  
+}
+
+.title {
+  max-width: 25rem;
+  text-align: center;
+  line-height: 4.375rem;
+  font-style: italic;
+  color: white;
+
+  &--one, &--click {
+    font-weight: bold;
+  }
+
+  &--click {
+    color: variables.$primary-color;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+.section {
+  padding: variables.$spacing-xs;
+  margin: variables.$spacing-l;
+  background-color: variables.$section-landing-bg;
+}

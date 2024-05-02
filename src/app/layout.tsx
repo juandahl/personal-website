@@ -19,9 +19,6 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<header className="flex justify-center">
-					<h3>My portfolio</h3>
-				</header>
 				<div className="w-full flex flex-col">{children}</div>
 			</body>
 		</html>

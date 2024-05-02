@@ -3,7 +3,12 @@ import { Factory } from "fishery";
 import { Article } from "@/backend/contexts/article/domain/article";
 
 const articleFactory = Factory.define<Article>(() =>
-	Article.create("Unit tests", "https://bucket.com/unit-tests"),
+	Article.create(
+		"Unit tests",
+		"https://bucket.com/unit-tests",
+		"https://bucket.com/unit-tests",
+		"Unit tests",
+	),
 );
 
 export const createArticleMock = (props: Partial<Article> = {}): Article => {

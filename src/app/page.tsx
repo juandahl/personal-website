@@ -1,9 +1,5 @@
-import ArticleList from "@/frontend/article/list/articleList";
+import Landing from "@/frontend/landing/page";
 
 export default function Home() {
-	return (
-		<div>
-			<ArticleList />
-		</div>
-	);
+	return <Landing />;
 }
